@@ -1,5 +1,4 @@
 const PortfolioItem = ({ project }) => {
-	console.log(project);
 	return (
 		<div className="bg-slate-800 rounded-lg overflow-hidden">
 			<img
