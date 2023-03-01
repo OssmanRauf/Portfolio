@@ -26,6 +26,7 @@ const Introduction = () => {
 					</a>
 					<a
 						href="assets/resume.pdf"
+						rel="noopener noreferrer"
 						target="_blank"
 						className="inline-block px-8 py-3 my-5 border border-transparent md:text-base text-smfont-medium rounded-md text-white bg-slate-700 hover:bg-slate-800 md:w-52  w-50 text-center self-center">
 						Resume
