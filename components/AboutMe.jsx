@@ -20,26 +20,32 @@ const AboutMe = () => {
 
 					<p>
 						Currently I'm studying Computer Engenering and telecommunications as
-						my major and soon to be graduated, looking for new job or freeclance
+						my major and soon to be graduated, looking for new job or freelance
 						opurtunities.
 					</p>
 
-					<div className="flex justify-evenly align-baseline">
+					<div className="flex justify-evenly align-baseline pt-3">
 						<p className="pt-3 text-lg">Get in touch:</p>
 						<span className="w-1/2 flex flex-row justify-end">
-							<span className="w-14 p-2 rounded-full bg-gray-300 mx-2">
-								<img
-									className="w-full h-full"
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-								/>
+							<span className="w-12 md:w-14 p-1 md:p-2 rounded-full bg-gray-300 mx-2">
+								<a href="https://github.com/OssmanRauf" target="_blank">
+									<img
+										className="w-full h-full"
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+									/>
+								</a>
 							</span>
-							<span className="w-14 p-2 rounded-full bg-gray-300 mx-2">
-								<img
-									className="w-full h-full"
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-								/>
+							<span className="w-12 md:w-14 p-1 md:p-2 rounded-full bg-gray-300 mx-2">
+								<a
+									href="https://www.linkedin.com/in/ossmanrauf/"
+									target="_blank">
+									<img
+										className="w-full h-full"
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+									/>
+								</a>
 							</span>
-							<span className="w-14 p-2 rounded-full bg-gray-300 mx-2">
+							<span className="w-12 md:w-14 p-1 md:p-2 rounded-full bg-gray-300 mx-2">
 								<a target="_blank" href="https://wa.me/258872222118">
 									<svg
 										className="w-full"
