@@ -4,7 +4,7 @@ const nextConfig = {
     swcMinify: true,
 };
 module.exports = {
-    mode: "development",
+    mode: "production",
 };
 
 module.exports = nextConfig;
