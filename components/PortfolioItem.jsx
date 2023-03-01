@@ -23,12 +23,12 @@ const PortfolioItem = ({ project }) => {
 				</p>
 				<p className="flex justify-end">
 					<a href={project.repositoryUrl} className="button" target="_blank">
-						<button class="rounded-md bg-slate-700 px-2 py-1 m-3">
+						<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
 							Check Repository
 						</button>
 					</a>
 					<a href={project.liveDemoUrl} className="button" target="_blank">
-						<button class="rounded-md bg-slate-700 px-2 py-1 m-3">
+						<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
 							Live Demo
 						</button>
 					</a>
