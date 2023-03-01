@@ -20,7 +20,7 @@ const Tools = () => {
 			</div>
 			<div className="flex flex-row justify-between">
 				{skillsList.tools.map((img) => (
-					<img key={img} width="40px" height="40px" src={img} />
+					<img alt="skill" key={img} width="40px" height="40px" src={img} />
 				))}
 			</div>
 		</div>

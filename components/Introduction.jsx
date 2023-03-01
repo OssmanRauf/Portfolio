@@ -4,7 +4,7 @@ const Introduction = () => {
 		<>
 			<div id="home" className="w-full flex justify-center pt-12 pb-2">
 				<div className="flex flex-row text-2xl md:text-4xl mb-1 md:mb-3 text-indigo-500 font-semibold">
-					Hello I'm&nbsp;
+					Hello I&#39;m&nbsp;
 					<Typewriter
 						options={{
 							strings: ["Ossman Rauf", "A Programmer", "Developer"],

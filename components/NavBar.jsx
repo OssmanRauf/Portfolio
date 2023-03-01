@@ -23,6 +23,7 @@ const NavBar = () => {
 			</a>
 			<a
 				target="_blank"
+				rel="noreferrer"
 				href="https://www.coding4life.org/profile/OssmanRauf"
 				className="text-base md:text-lg underline py-1">
 				Blog
