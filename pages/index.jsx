@@ -5,7 +5,17 @@ import AboutMe from "../components/AboutMe";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Head from "next/head";
+import Modal from "../components/Modal";
+import { useState } from "react";
 export default function Home() {
+	const [index, setIndex] = useState();
+	const [showModal, setShowModal] = useState(false);
+
+	const handleClick = (i) => {
+		console.log(i);
+		setIndex(i);
+		setShowModal(true);
+	};
 	return (
 		<>
 			<Head>
@@ -18,10 +28,11 @@ export default function Home() {
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<Introduction />
 					<Myskills />
-					<Portfolio />
+					<Portfolio handleClick={handleClick} setIndex={setIndex} />
 					<AboutMe />
 					<Footer />
 				</div>
+				{showModal ? <Modal setShowModal={setShowModal} index={index} /> : ""}
 			</div>
 		</>
 	);

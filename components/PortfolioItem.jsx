@@ -1,4 +1,4 @@
-const PortfolioItem = ({ project }) => {
+const PortfolioItem = ({ project, handleClick, index }) => {
 	return (
 		<div className="bg-slate-800 rounded-lg overflow-hidden">
 			<img
@@ -11,10 +11,10 @@ const PortfolioItem = ({ project }) => {
 					{project.title}
 				</h3>
 				<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm ">
-					{project.technologies.map((techName) => {
+					{project.technologies.map((techName, index) => {
 						return (
 							<span
-								key={techName}
+								key={index}
 								className="inline-block px-2 py-1 bg-slate-900 rounded-md">
 								{techName}
 							</span>
@@ -22,24 +22,13 @@ const PortfolioItem = ({ project }) => {
 					})}
 				</p>
 				<p className="flex justify-end">
-					<a
-						href={project.repositoryUrl}
-						className="button"
-						target="_blank"
-						rel="noreferrer">
-						<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
-							Check Repository
-						</button>
-					</a>
-					<a
-						href={project.liveDemoUrl}
-						className="button"
-						target="_blank"
-						rel="noreferrer">
-						<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
-							Live Demo
-						</button>
-					</a>
+					<button
+						onClick={() => {
+							handleClick(index);
+						}}
+						className="rounded-md bg-slate-700 px-2 py-1 m-3">
+						See more
+					</button>
 				</p>
 			</div>
 		</div>
