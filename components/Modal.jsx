@@ -60,7 +60,7 @@ const Modal = ({ index, setShowModal }) => {
 									className="button"
 									target="_blank"
 									rel="noreferrer">
-									<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
+									<button className="rounded-md bg-slate-600 hover:bg-slate-700 px-2 py-1 m-3">
 										Check Repository
 									</button>
 								</a>
@@ -69,7 +69,7 @@ const Modal = ({ index, setShowModal }) => {
 									className="button"
 									target="_blank"
 									rel="noreferrer">
-									<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
+									<button className="rounded-md bg-indigo-600 hover:bg-indigo-700  px-2 py-1 m-3">
 										Live Demo
 									</button>
 								</a>
