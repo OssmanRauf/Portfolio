@@ -5,12 +5,12 @@ const Modal = ({ index, setShowModal }) => {
 		<>
 			<div className="modal bg-gray-600 bg-opacity-60 fixed w-full h-full top-0 left-0 flex items-center justify-center z-10">
 				<div className=" bg-slate-900 text-gray-300 w-11/12 h-screen md:h-auto  md:max-w-4xl mx-auto rounded shadow-lg z-40 overflow-y-auto">
-					<div className="w-full p-2 flex justify-end">
+					<div className="w-full flex justify-end">
 						<button
+							className="m-2 mt-3"
 							onClick={() => {
 								setShowModal(false);
-							}}
-							className="right-0">
+							}}>
 							<svg
 								fill="none"
 								stroke="white"
@@ -51,7 +51,7 @@ const Modal = ({ index, setShowModal }) => {
 									);
 								})}
 							</p>
-							<p className="text-justify pt-2 md:pt-0 px-1">
+							<p className="text-justify text-base pt-2 md:pt-0 px-1">
 								{project.description}
 							</p>
 							<p className="flex justify-end">
