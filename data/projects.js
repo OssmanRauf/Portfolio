@@ -12,7 +12,7 @@ export default [
 		],
 		liveDemoUrl: "https://coding4life.org",
 		repositoryUrl: "https://github.com/OssmanRauf/coding4life-frontendt",
-		embedded: "dQw4w9WgXcQ",
+		embedded: "qLWWvFL2o_0",
 		description:
 			"A blog for developers where everyone can write their ideas, features like comments, add/delete/edit a post (only admins), Login, Register and the abillity to become an admin to write post by requesting and being accepted (by the super admin) are all build by me.",
 	},
@@ -30,9 +30,9 @@ export default [
 		],
 		liveDemoUrl: "https://coding4life.org",
 		repositoryUrl: "https://github.com/OssmanRauf/coding4life-frontendt",
-		embedded: "dQw4w9WgXcQ",
+		embedded: "MiKyL2BNNbs",
 		description:
-			"Expence tracker to track your income and expences, include features like Login, Register, add and expence or an income which refletcs on your balance",
+			"Expence tracker to track your income and expences, include features like Login, Register, add and expence or an income which refletcs on your balance.",
 	},
 	{
 		imageUrl: "/assets/MoviesAPP.png",
@@ -40,15 +40,18 @@ export default [
 		technologies: ["Javascript", "TailwindCSS", "ReactJS"],
 		liveDemoUrl: "https://ossmanrauf.github.io/BreakingBadCast/",
 		repositoryUrl: "https://github.com/OssmanRauf/BreakingBadCast",
-		embedded: "dQw4w9WgXcQ",
-		description: "",
+		embedded: "3XFEj2OSUvU",
+		description:
+			"Movies website to see informations about the latest movies releases, built using TMDB API, implented routes with react router and search functionality.",
 	},
 	{
-		imageUrl: "/assets/BreakingBad.png",
-		title: "Breaking bad cast",
-		technologies: ["Javascript", "CSS", "React JS"],
+		imageUrl: "/assets/amigo-do-engenheiro.png",
+		title: "Amigo do engenheiro app (Engineer's friend app)",
+		technologies: ["React Native"],
 		liveDemoUrl: "https://ossmanrauf.github.io/BreakingBadCast/",
 		repositoryUrl: "https://github.com/OssmanRauf/BreakingBadCast",
-		embedded: "dQw4w9WgXcQ",
+		embedded: "My2sMWNkb0s",
+		description:
+			"An app to make simple calculations and perform some complex calculations too",
 	},
 ];

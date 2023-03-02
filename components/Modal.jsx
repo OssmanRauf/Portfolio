@@ -4,7 +4,7 @@ const Modal = ({ index, setShowModal }) => {
 	return (
 		<>
 			<div class="modal bg-gray-600 bg-opacity-60 fixed w-full h-full top-0 left-0 flex items-center justify-center z-10">
-				<div class=" bg-slate-900 text-gray-300 w-11/12 md:max-w-4xl mx-auto rounded shadow-lg z-40 overflow-y-auto">
+				<div class=" bg-slate-900 text-gray-300 w-11/12 h-screen md:h-auto  md:max-w-4xl mx-auto rounded shadow-lg z-40 overflow-y-auto">
 					<div className="w-full p-2 flex justify-end">
 						<button
 							onClick={() => {
@@ -53,6 +53,26 @@ const Modal = ({ index, setShowModal }) => {
 							</p>
 							<p className="text-justify pt-2 md:pt-0 px-1 text-sm md:text-base">
 								{project.description}
+							</p>
+							<p className="flex justify-end">
+								<a
+									href={project.repositoryUrl}
+									className="button"
+									target="_blank"
+									rel="noreferrer">
+									<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
+										Check Repository
+									</button>
+								</a>
+								<a
+									href={project.liveDemoUrl}
+									className="button"
+									target="_blank"
+									rel="noreferrer">
+									<button className="rounded-md bg-slate-700 px-2 py-1 m-3">
+										Live Demo
+									</button>
+								</a>
 							</p>
 						</div>
 					</div>
