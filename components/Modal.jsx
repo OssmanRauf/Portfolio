@@ -1,5 +1,6 @@
 import projects from "../data/projects";
 const Modal = ({ index, setShowModal }) => {
+	const project = projects[index];
 	return (
 		<>
 			<div className="modal bg-gray-600 bg-opacity-60 fixed w-full h-full top-0 left-0 flex items-center justify-center z-10">

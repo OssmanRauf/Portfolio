@@ -12,7 +12,6 @@ export default function Home() {
 	const [showModal, setShowModal] = useState(false);
 
 	const handleClick = (i) => {
-		console.log(i);
 		setIndex(i);
 		setShowModal(true);
 	};
