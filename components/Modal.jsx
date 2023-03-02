@@ -51,7 +51,7 @@ const Modal = ({ index, setShowModal }) => {
 									);
 								})}
 							</p>
-							<p className="text-justify pt-2 md:pt-0 px-1 text-sm md:text-base">
+							<p className="text-justify pt-2 md:pt-0 px-1">
 								{project.description}
 							</p>
 							<p className="flex justify-end">
