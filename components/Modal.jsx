@@ -26,7 +26,7 @@ const Modal = ({ index, setShowModal }) => {
 							</svg>
 						</button>
 					</div>
-					<div className="m-2 modal-content py-4 text-left px-6 z-50 flex flex-col md:flex-row">
+					<div className="items-center m-2 modal-content py-4 text-left px-6 z-50 flex flex-col md:flex-row">
 						<div className="w-11/12 md:w-1/2 px-2 mx-auto my-2">
 							<iframe
 								className="w-full h-52 md:60 rounded-2xl"

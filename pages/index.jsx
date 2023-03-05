@@ -22,7 +22,10 @@ export default function Home() {
 				<meta name="description" content="My Portfolio" />
 				<link rel="icon" type="image/x-icon" href="/assets/avatar.ico"></link>
 			</Head>
-			<div className="scroll-smooth bg-slate-900 text-gray-300 w-full">
+			<div
+				className={`${
+					showModal ? "overflow-y-hidden" : ""
+				} scroll-smooth bg-slate-900 text-gray-300 w-full`}>
 				<NavBar />
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<Introduction />
